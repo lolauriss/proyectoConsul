@@ -1,5 +1,13 @@
 import React from "react";
 
 export function Footer(props) {
-	return <h1>Footer</h1>;
+	return (
+		<footer className="py-5 bg-dark">
+			<div className="container">
+				<p className="m-0 text-center text-white">
+					Copyright © Your Website 2019
+				</p>
+			</div>
+		</footer>
+	);
 }
