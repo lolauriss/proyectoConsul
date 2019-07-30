@@ -1,7 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export function Home(props)[{
-    return (
-        <h1>home</h1>;
-    )
+export function Navbar(props) {
+	return <h1>Navbar</h1>;
 }
