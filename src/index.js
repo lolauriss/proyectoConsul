@@ -19,13 +19,13 @@ class App extends React.Component {
 		return (
 			<div>
 				<Nav
-					btnOne="Home"
-					btnTwo="About"
-					btnThree="Services"
-					btnFour="Contact"
+					btnOne="Pacientes"
+					btnTwo="Agenda"
+					btnThree="Medicos"
+					btnFour="Mantenedores"
 				/>
 				<div className="container">
-					<Header
+				{/*	<Header
 						title="Titulo Principal"
 						content="Contenido Principal"
 						btnName="Boton Principal"
@@ -63,7 +63,7 @@ class App extends React.Component {
 								btnName="Boton 4"
 							/>
 						</div>
-					</div>
+					</div>  */}
 				</div>
 
 				<footer className="py-5 bg-dark">

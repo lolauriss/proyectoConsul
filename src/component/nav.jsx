@@ -1,6 +1,6 @@
 import React from "react";
 import PropType from "prop-types";
-import "./index.scss";
+import "./style.scss";
 
 export default function Nav(props) {
 	Nav.propTypes = {
@@ -14,32 +14,32 @@ export default function Nav(props) {
       <div className="wrapper">
    	<nav id="sidebar">
    		<div className="sidebar-header">
-   			<h3>BOOTSTRAP SIDEBAR</h3>
+   			<h3>AGENDA PACIENTES</h3>
    		</div>
 
 
    		<ul className="list-unstyled components">
-   			<p>Dummy Heading</p>
+   			<p></p>
    			<li className="active">
-   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Home</a>
+   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">AGENDA</a>
    				<ul className="collapse list-unstyled" id="homeSubmenu">
    					<li>
-   						<a href={'http://google.com'}>home1</a>
+   						<a href={'http://google.com'}>PACIENTES</a>
    					</li>
    					<li>
-   						<a href={'http://google.com'}>home2</a>
+   						<a href={'http://google.com'}>CREAR PACIENTES</a>
    					</li>
    					<li>
-   						<a href={'http://google.com'}>home3</a>
+   						<a href={'http://google.com'}>REPORTE PACIENTES</a>
    					</li>
    				</ul>
    			</li>
 
    			<li>
-   				<a href={'http://google.com'}>About</a>
+   				<a href={'http://google.com'}>MEDICOS</a>
    			</li>
    			<li>
-   				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Page</a>
+   				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">MANTENEDORES</a>
    				<ul className="collapse list-unstyled" id="pageSubmenu">
    					<li>
    						<a href={'http://google.com'}>page1</a>
@@ -53,19 +53,19 @@ export default function Nav(props) {
    				</ul>
    			</li>
    			<li>
-   				<a href={'http://google.com'}>Services</a>
+   				<a href={'http://google.com'}>REPORTES</a>
    			</li>
    			<li>
-   				<a href={'http://google.com'}>Contact Us</a>
+   				<a href={'http://google.com'}>SOPORTE</a>
    			</li>
    		</ul>
 
    		<ul className="list-unstyled CTAs">
    			<li>
-   				<a href={'http://google.com'} className="download">Download code</a>
+   				<a href={'http://google.com'} className="download">DESCARGA REPORTES</a>
    			</li>
    			<li>
-   				<a href={'http://google.com'} className="article">article</a>
+   				<a href={'http://google.com'} className="article">ALERTAS</a>
    			</li>
    		</ul>
    	</nav>
@@ -74,7 +74,7 @@ export default function Nav(props) {
    		<nav className="navbar navbar-expand-lg navbar-light bg-light">
 
    		<button type="button" id="sidebarCollapse" className="btn btn-info">
-   			<i className="fa fa-align-justify"></i> <span>toggle sidebar</span>
+   			<i className="fa fa-align-justify"></i> <span>MENU PRINCIPAL</span>
    		</button>
 
 
@@ -84,16 +84,16 @@ export default function Nav(props) {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link" href={'http://google.com'}>Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href={'http://google.com'}>SERVICIOS<span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href={'http://google.com'}>Features</a>
+        <a className="nav-link" href={'http://google.com'}>ESPECIALIDADES</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href={'http://google.com'}>Pricing</a>
+        <a className="nav-link" href={'http://google.com'}>HORARIOS</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link disabled" href={'http://google.com'}>Disabled</a>
+        <a className="nav-link disabled" href={'http://google.com'}>PREALERTAS</a>
       </li>
     </ul>
   </div>
