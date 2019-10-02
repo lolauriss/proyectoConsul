@@ -33,7 +33,7 @@ class App extends React.Component {
 
 				</div>
 
-                <Routes />
+
 			</div>
 
 		);
@@ -44,3 +44,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 //npm install bootstrap
 //npm install -g jsx
+//npm install --save-dev css-loader
+//npm install @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list
