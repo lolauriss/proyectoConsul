@@ -2,11 +2,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import Routes from './routes';
+//import Routes from './routes';
 
 
 //include your index.scss file into the bundle
-import "./component/style.scss";
+//import "./component/style.scss";
 
 
 //import your own components
@@ -22,9 +22,9 @@ class App extends React.Component {
 			<div className="row">
                 <div className="col-4">
 				<Nav
-					btnOne="Pacientes"
-					btnTwo="Agenda"
-					btnThree="Medicos"
+					btnOne="Agenda"
+					btnTwo="Grupos"
+					btnThree="Reportes"
 					btnFour="Mantenedores"
 				/>
                 </div>
