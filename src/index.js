@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.css';
+import Routes from './routes';
 
 
 //include your index.scss file into the bundle
@@ -32,8 +33,9 @@ class App extends React.Component {
 
 				</div>
 
-
+                <Routes />
 			</div>
+
 		);
 	}
 }
