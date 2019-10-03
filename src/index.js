@@ -12,8 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import your own components
 import Nav from "./component/nav.jsx";
 import Header from "./component/header.jsx";
-import Card from "./component/card.jsx";
-import Footer from "./component/footer.jsx";
+import EventCalendar from "./component/EventCalendar.jsx";
 
 
 class App extends React.Component {
@@ -29,9 +28,12 @@ class App extends React.Component {
 				/>
                 </div>
 				<div className="col-8 content">
-                <Header />
+                <EventCalendar />
 
 				</div>
+                <div>
+
+                </div>
 
 
 			</div>
