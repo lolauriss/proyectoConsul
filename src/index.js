@@ -17,7 +17,7 @@ import Layout from "./layout";
 
 
 
-ReactDOM.render(<Layout />, document.getElementById("#root"));
+ReactDOM.render(<Layout />, document.querySelector("#root"));
 
 //npm install bootstrap
 //npm install -g jsx
