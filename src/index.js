@@ -10,41 +10,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 //import your own components
-import Nav from "./component/nav.jsx";
-import Header from "./component/header.jsx";
-import EventCalendar from "./component/EventCalendar.jsx";
+//import Nav from "./component/nav.jsx";
+//import EventCalendar from "./component/EventCalendar.jsx";
+import Layout from "./layout";
 
 
-class App extends React.Component {
-	render() {
-		return (
-			<div className="row">
-                <div className="col-4">
-				<Nav
-					btnOne="Agenda"
-					btnTwo="Grupos"
-					btnThree="Reportes"
-					btnFour="Mantenedores"
-				/>
-                </div>
-				<div className="col-8 content">
-                <EventCalendar />
-
-				</div>
-                <div>
-
-                </div>
 
 
-			</div>
-
-		);
-	}
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Layout />, document.getElementById("#root"));
 
 //npm install bootstrap
 //npm install -g jsx
 //npm install --save-dev css-loader
 //npm install @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list
+//npm i @fullcalendar/react

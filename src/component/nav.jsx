@@ -21,51 +21,51 @@ export default function Nav(props) {
    		<ul className="list-unstyled components">
    			<p></p>
    			<li className="active">
-   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">AGENDA</a>
+   				<a >AGENDA</a>
    				<ul className="collapse list-unstyled" id="homeSubmenu">
    					<li>
-   						<a href={''}>Agenda de Hoy</a>
+   						<a >Agenda de Hoy</a>
    					</li>
    					<li>
-   						<a href={''}>Invitar Usuario a Evento</a>
+   						<a >Invitar Usuario a Evento</a>
    					</li>
    					<li>
-   						<a href={''}>Reporte</a>
+   						<a >Reporte</a>
    					</li>
    				</ul>
    			</li>
 
    			<li>
-   				<a href={''}></a>
+   				<a ></a>
    			</li>
    			<li>
-   				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">MANTENEDORES</a>
+   				<a >MANTENEDORES</a>
    				<ul className="collapse list-unstyled" id="pageSubmenu">
    					<li>
-   						<a href={''}>Usuarios</a>
+   						<a >Usuarios</a>
    					</li>
    					<li>
-   						<a href={''}>Grupos</a>
+   						<a >Grupos</a>
    					</li>
    					<li>
-   						<a href={''}>Servicios</a>
+   						<a >Servicios</a>
    					</li>
    				</ul>
    			</li>
    			<li>
-   				<a href={''}>REPORTES</a>
+   				<a >REPORTES</a>
    			</li>
    			<li>
-   				<a href={''}>SOPORTE</a>
+   				<a >SOPORTE</a>
    			</li>
    		</ul>
 
    		<ul className="list-unstyled CTAs">
    			<li>
-   				<a href={''} className="download">DESCARGA REPORTES</a>
+   				<a >DESCARGA REPORTES</a>
    			</li>
    			<li>
-   				<a href={''} className="article">ALERTAS</a>
+   				<a >ALERTAS</a>
    			</li>
    		</ul>
    	</nav>
