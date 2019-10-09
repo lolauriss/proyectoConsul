@@ -1,12 +1,23 @@
 body {
-//background: url("/../img/fondo.jpg") no-repeat center center fixed;
+background: url("./../img/fondo.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
+.inputs {
+    position: relative;
+    float: right;
+    margin-right: 600px;
+    margin-top: -250px;
+}
 p {
-    margin-left: 321px;
-    font-size: 9px;
-    margin-top: 3px;
+    font-size: 11px;
+    text-align: left;
+    margin-left: 475px;
+    margin-top: 5px;
+}
+.logo {
+    margin-top: 70px;
+    margin-left: 50px;
 }
