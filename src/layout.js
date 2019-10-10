@@ -6,7 +6,7 @@ import { Home } from "./views/Home";
 import { Perfil } from "./views/Perfil";
 import { Community } from "./views/Community";
 import injectContext from "./store/appContext";
-import { EventCalendar } from "./views/EventCalendar";
+import { agendaHoy } from "./views/agendaHoy";
 
 //import React,{Component} from 'react';
 
@@ -27,7 +27,7 @@ export class Layout extends React.Component {
                             <Route exact path="/" component={Home} />
                             <Route path="/Perfil" component={Perfil} />
                             <Route path="/Community" component={Community} />
-                            <Route path="/EventCalendar" component={EventCalendar} />
+                            <Route path="/agendaHoy" component={agendaHoy} />
                             <Route render={() => <h1>Not found!</h1>} />
                         </Switch>
                     </ScrollToTop>
