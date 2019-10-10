@@ -4,7 +4,7 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import "./../styles/style.scss";
 
-export class EventCalendar extends React.Component {
+export default class EventCalendar extends React.Component {
 
 
 

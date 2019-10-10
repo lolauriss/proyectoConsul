@@ -1,8 +1,8 @@
 import React from "react";
-import PropType from "prop-types";
-import "./style.scss";
+import "./../styles/Home.scss";
+import "../component/style.scss";
 
-export class Nav extends React.Component {
+export default class Nav extends React.Component {
     render() {
         return (
 
