@@ -1,7 +1,7 @@
 import React from "react";
 
-import Nav from "./nav.jsx";   //esta linea se agrego, faltaba indicar la ubicacion del archivo nomas
-import EventCalendar from "./EventCalendar.js";   //esta linea se agrego, faltaba indicar la ubicacion del archivo nomas
+import Nav from "../component/nav.jsx";   //esta linea se agrego, faltaba indicar la ubicacion del archivo nomas
+import EventCalendar from "../component/EventCalendar.js";   //esta linea se agrego, faltaba indicar la ubicacion del archivo nomas
 
 //para bootstrap y diseño de filas y columnas extrañamente tuve que instalar libreria reacstrap: npm install --save reactstrap react react-dom
 
@@ -14,7 +14,7 @@ import { Container, Row, Col } from "reactstrap"; //esta linea se agrego
     export class agendaHoy extends React.Component {
         render (){
         return (
-             <Container>
+             <Container fluid={true}>
 
         <Row>
           <Col xs="3">
