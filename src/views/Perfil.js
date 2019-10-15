@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import "./../styles/style.scss";
-import Nav from "../component/nav.jsx";
+import Sidebar from "../component/sidebar.jsx";
 import CardAvatar from "../component/card_avatar.jsx";
 import CardInformation from "../component/card_information.jsx";   //esta linea se agrego, faltaba indicar la ubicacion del archivo nomas
 import { Container, Row, Col } from "reactstrap"; //esta linea se agrego
@@ -14,7 +14,7 @@ import { Container, Row, Col } from "reactstrap"; //esta linea se agrego
 
         <Row>
           <Col xs="3">
-          <Nav />
+          <Sidebar />
           </Col>
            <Col xs="3">
           <CardAvatar />

@@ -1,14 +1,10 @@
 import React from "react";
-import PropType from "prop-types";
-import "./style.scss";
+import "../component/style.scss";
+//import { Link } from "react-router-dom";
 
-export default function Header(props) {
-	Header.propTypes = {
-		title: PropType.string,
-		content: PropType.string,
-		btnName: PropType.string
-	};
-	return (
+export default class Header extends React.Component {
+    render() {
+        return (
 
 
 <div className="row">
@@ -34,4 +30,5 @@ export default function Header(props) {
 			</a>
 		</header>*/
 	);
+  }
 }
