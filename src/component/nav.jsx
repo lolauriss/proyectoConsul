@@ -17,7 +17,7 @@ export default class Nav extends React.Component {
    		<ul className="list-unstyled components">
    			<p></p>
    			<li className="active">
-   				<Link to="/angendaHoy">AGENDA</Link>
+   				<Link to="/agendaHoy">AGENDA</Link>
    				<ul className="collapse list-unstyled" id="homeSubmenu">
    					<li>
    						<Link to="/agendaHoy">Agenda de Hoy</Link>
@@ -31,9 +31,7 @@ export default class Nav extends React.Component {
    				</ul>
    			</li>
 
-   			<li>
-   				<a ></a>
-   			</li>
+
    			<li>
    				<Link to="/agendaHoy">MANTENEDORES</Link>
    				<ul className="collapse list-unstyled" id="pageSubmenu">
