@@ -3,10 +3,12 @@ import React from "react";
 import logo from "./../img/logo.png";
 import "./../styles/Home.scss";
 
-export class Home extends React.Component {
+export class Register extends React.Component {
     state = {
         user: '',
-        password: ''
+        password: '',
+        nombre: '',
+        apellido: ''
 
     }
     handleChange = (e) => {
@@ -30,9 +32,21 @@ export class Home extends React.Component {
                 </div>
                 <div className="inputs col-6 text-right">
                     <form onSubmit={this.handleSubmit}>
+                    <div className="input-field">
+                        <label className="text left">
+                        Nombre:
+                            <input type="name" id="name" onChange={this.handleChange} />
+                        </label>
+                       </div>
                        <div className="input-field">
                         <label className="text left">
-                            Usuario:
+                        Apellido:
+                            <input type="lastname" id="lastname" onChange={this.handleChange} />
+                        </label>
+                       </div>
+                       <div className="input-field">
+                        <label className="text left">
+                        Usuario:
                             <input type="user" id="user" onChange={this.handleChange} />
                         </label>
                        </div>
@@ -44,13 +58,10 @@ export class Home extends React.Component {
                        </div>
                        <div className="input-field">
                         <label className="text left">
-
-                            <button className="btn pink lighten-1 z-depth-0" >Login</button>
+                            <button className="btn pink lighten-1 z-depth-0" >Listo</button>
                         </label>
                        </div>
                     </form>
-                    <p>Registrarme</p>
-                    <p>Olvidé mi contraseña</p>
                 </div>
 
             </div>

@@ -7,6 +7,7 @@ import { Perfil } from "./views/Perfil";
 import { Community } from "./views/Community";
 import injectContext from "./store/appContext";
 import { agendaHoy } from "./views/agendaHoy";
+import { Register } from "./views/Register";
 
 //import React,{Component} from 'react';
 
@@ -28,6 +29,7 @@ export class Layout extends React.Component {
                             <Route path="/Perfil" component={Perfil} />
                             <Route path="/Community" component={Community} />
                             <Route path="/agendaHoy" component={agendaHoy} />
+                            <Route path="/Register" component={Register} />
                             <Route render={() => <h1>Not found!</h1>} />
                         </Switch>
                     </ScrollToTop>
